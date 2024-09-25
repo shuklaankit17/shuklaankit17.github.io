@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Harlow Solid Italic;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .about-section {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .about-section img {
+            margin-right: 20px;
+            border-radius: 50px;
+        }
+
+        .contact-details {
+            margin-left: 10px;
+        }
+
+        
+
+        section#contact {
+            margin-top: 50px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <section class="about-section">
+        <img src="acha photo.jpg" width="350px" height="350px" alt="Profile Photo">
+        <div class="contact-details">
+            <h2>About Me</h2>
+            <p>Hi, I'm Ankit Kumar Shukla. I completed my graduation in BSc (Maths) from my home city. I'm new to web development, with a passion for creating beautiful and functional websites. I love coding and learning new technologies.</p>
+            <h3>My Hobbies</h3>
+            <p>I love to play PUBG in my free time and enjoy riding.</p>
+
+            <h3>Contact Details</h3>
+            <ul>
+                <li>Email: crazyankit17gmail.com</li>
+                <li>Phone: 7370966432+</li>
+                <li>Location: anekal(bangalore)India</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    
+</body>
+</html>
